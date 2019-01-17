@@ -2,7 +2,7 @@
 
 function rnaTranscriber(sequence) {
   if (sequence === undefined || !sequence.length) return '';
-  if (!/^[CGATU]+$/.test(sequence)) throw new TypeError('Invalid input');
+  if (!/^[ACGT]+$/.test(sequence)) throw new TypeError('Invalid input');
   const dict = {
     G: 'C',
     C: 'G',
