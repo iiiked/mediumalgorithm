@@ -1,4 +1,4 @@
-# mediumalgorithm
+# medium algorithm
 A medium level algorithm for Algorithm night with tests
 
 Given a DNA strand, return its RNA complement (per RNA transcription).
@@ -15,3 +15,9 @@ Given a DNA strand, its transcribed RNA strand is formed by replacing each nucle
     C -> G
     T -> A
     A -> U
+
+
+# getting started
+
+- npm install
+- npm test
