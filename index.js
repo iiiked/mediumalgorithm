@@ -1,7 +1,7 @@
 'use strict';
 
 function rnaTranscriber(sequence) {
-  if (sequence === undefined || !sequence.length) return '';
+  if (sequence === undefined || !sequence.length) return sequence;
   if (!/^[ACGT]+$/.test(sequence)) throw new TypeError('Invalid input');
   const dict = {
     G: 'C',
