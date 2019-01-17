@@ -19,5 +19,10 @@ Given a DNA strand, its transcribed RNA strand is formed by replacing each nucle
 
 # getting started
 
-- npm install
-- npm test
+    Fork and clone clone repo
+
+    $cd mediumalgorithm
+
+    $npm install
+
+    $npm test
